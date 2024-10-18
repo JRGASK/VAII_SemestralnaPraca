@@ -1,0 +1,44 @@
+.bg-color {
+    background-color: grey;
+
+}
+
+.bg-image {
+    background: url('https://c1.wallpaperflare.com/path/508/250/386/porsche-oldtimer-mühlheim-mulhouse-c28063a785162686560b46cc3b93f811.jpg') no-repeat center center/cover;
+
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+}
+
+.btn-AU {
+    background: url("images/car.jpg") no-repeat center center/cover;
+    background: transparent;
+    border: #4e0076 2px solid;
+    color: white;
+}
+
+.btn-AU:hover {
+    background: #4e0076;
+    border-color: #4e0076;
+    color: white;
+}
+
+.nav-bar-style {
+    background: rgb(78, 0, 118, 0.9);
+}
+
+
+.container-style {
+
+    border: 3px solid #4e0076;
+}
+
+
+
+

@@ -2,9 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Website</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-color">
+
+<nav class="navbar  navbar-expand-lg navbar-dark sticky-top nav-bar-style">
+    <div class="container">
+        <a class="navbar-brand" href="#">FRI_GARAGE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Cars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#CARS">Motobikes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Services</a></li>
+                        <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">FAQs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-image">
+    <div class="overlay d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h1 class="display-4 text-white">WELCOME</h1>
+            <p class="lead text-white"></p>
+            <a href="#about" class="btn btn-AU ">About Us</a>
+        </div>
+    </div>
+</header>
+
+
+<section id="about" class="py-5">
+    <div class="container container-style">
+        <h2 class="text-center mb-4">About Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>In mattis dapibus magna pretium hendrerit. Curabitur cursus urna non imperdiet porttitor.
+                    Vivamus sit amet maximus ante. Quisque convallis eget tortor sed finibus. Sed nec est mi.
+                    Morbi ullamcorper, massa in blandit vehicula, tellus augue sodales arcu, aliquet finibus ligula ligula ut nibh.
+                    Phasellus placerat scelerisque efficitur.
+                    In condimentum ligula id neque tincidunt, quis blandit ante rhoncus..</p>
+            </div>
+            <div class="col-md-6">
+                <p>Sed accumsan, urna ut fermentum venenatis, risus libero aliquam massa, eu semper magna libero id enim. Vivamus eget felis vel neque imperdiet tincidunt.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="features" class="py-5">
+    <div class="container container-style">
+        <h2 class="text-center mb-4">Our Service</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="icon mb-3">
+                    <i class="fas fa-mobile-alt fa-3x"></i>
+                </div>
+                <h3>QUALITY</h3>
+                <p>Morbi ullamcorper, massa in blandit vehicula, tellus augue sodales arcu, aliquet finibus ligula ligula ut nibh.
+                    Phasellus placerat scelerisque efficitur.
+                    In condimentum ligula id neque tincidunt, quis blandit ante rhoncus..</p>
+            </div>
+            <div class="col-md-4">
+                <div class="icon mb-3">
+                    <i class="fas fa-laptop fa-3x"></i>
+                </div>
+                <h3></h3>
+                <p>Etiam dictum, metus nec lobortis ultrices, risus nunc interdum leo, eget aliquam metus diam non mi. Curabitur molestie quis justo nec luctus. Donec convallis tortor quis augue hendrerit, eu pharetra lorem mattis. Mauris vitae dignissim augue. Donec pharetra erat risus, quis fringilla libero blandit vel. Praesent posuere laoreet malesuada. Etiam auctor mauris a mi porta, vitae bibendum arcu rhoncus.
+                    Nam varius tortor sed purus luctus, quis pellentesque neque fringilla. Cras sollicitudin egestas arcu, in interdum tortor maximus vel. Aenean luctus rutrum libero eu tristique.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="icon mb-3">
+                    <i class="fas fa-rocket fa-3x"></i>
+                </div>
+                <h3>Fast & Reliable</h3>
+                <p>Cras sollicitudin egestas arcu, in interdum tortor maximus vel. Aenean luctus rutrum libero eu tristique.
+                    Maecenas vitae varius justo, sit amet suscipit lacus. Vivamus faucibus dolor sed libero iaculis iaculis. In at lorem et odio aliquam feugiat a ut orci. Nam cursus nisi mollis magna aliquam volutpat.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="py-4 bg-color bg-dark text-white text-center ">
+    <p>© 2024s.</p>
+</footer>
 </body>
 </html>
