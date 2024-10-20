@@ -1,11 +1,9 @@
 .bg-color {
-    background-color: grey;
-
+    background-color: gray;
 }
 
-.bg-image {
+.bg-image-garage {
     background: url('https://c1.wallpaperflare.com/path/508/250/386/porsche-oldtimer-mühlheim-mulhouse-c28063a785162686560b46cc3b93f811.jpg') no-repeat center center/cover;
-
     height: 100vh;
     position: relative;
 }
@@ -17,7 +15,6 @@
 }
 
 .btn-AU {
-    background: url("images/car.jpg") no-repeat center center/cover;
     background: transparent;
     border: #4e0076 2px solid;
     color: white;
@@ -33,11 +30,33 @@
     background: rgb(78, 0, 118, 0.9);
 }
 
-
 .container-style {
-
-    border: 3px solid #4e0076;
+    color: #4e0076;
 }
+
+.bg-image-garage-car {
+    background: url("https://r4.wallpaperflare.com/wallpaper/407/958/485/amg-benz-cls-63-mercedes-wallpaper-98e66c6a0f7c77d99ed0e9b2b2e91b20.jpg") no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-image-car {
+    background: url("https://r4.wallpaperflare.com/wallpaper/670/772/1012/mercedes-benz-mercedes-amg-gt-car-mercedes-sl-65-amg-wallpaper-a9af59fc0d818da8d98229d6fb2eb8d8.jpg") no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.btn-AU-gold {
+    background: transparent;
+    border: rgb(218,165,32) 2px solid;
+    color: white;
+}
+
+.btn-AU-gold:hover {
+    background: rgb(218,165,32);
+}
+
+
 
 
 
